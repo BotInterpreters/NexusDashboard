@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "tailwindcss";
+
+@theme {
+  --color-custom-outline: #1B2439;
+  --color-custom-bg-cards: #030B1B;
+}
+
+html {
+  min-height: 100%;
+  background: #0E1828;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: #0E1828;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  padding: 1.5rem;
+}
+
+// 
